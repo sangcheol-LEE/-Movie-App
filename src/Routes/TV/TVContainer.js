@@ -13,6 +13,7 @@ export default class extends React.Component {
 
   async componentDidMount() {
     try {
+
       const {
         data:{results: topRated}
       } = await tvApi.topRated();
